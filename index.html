@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+    <style>
+        .container{
+            width: 80%;
+            margin: auto;
+        }
+        #wrapperItem{
+            background-color: #d4d4d4;
+            padding: 10px
+        }
+        .items{
+            background-color: white;
+            padding:5px;
+            margin:5px;
+        }
+        .add-item{
+            background-color: green;
+            margin:5px;
+            padding:5px;
+            color: white;
+            border: solid white 1px;
+            border-radius: 5px;
+            box-shadow: 1px 1px 5px black;
+        }
+        .remove-item{
+            background-color: red;
+            margin:5px;
+            padding:5px;
+            color: white;
+            border: solid white 1px;
+            border-radius: 5px;
+            box-shadow: 1px 1px 5px black;
+        }
+    </style>
+
+<body>
+    <div class="container">
+        <center><h1>ITEM DINAMIS</h1></center>
+        <button class="add-item">+</button>
+        <div id="wrapperItem">
+            <div class="items">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusamus iure nulla voluptatem est modi, exercitationem obcaecati ex magni soluta impedit quas consequuntur a distinctio sapiente ducimus sequi, debitis rerum ipsam!
+            </div>
+        </div>
+    </div>
+</body>
+<script src="jquery.js"></script>
+<script src="dinaminput.js"></script>
+<script>
+    $('document').ready(function(){
+        dinaminput()
+    });
+</script>
+</html>
